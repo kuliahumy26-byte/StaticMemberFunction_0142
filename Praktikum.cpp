@@ -37,3 +37,24 @@ public:
     }
 };
 
+int main() {
+    cout << "=== DATA KENDARAAN ===" << endl << endl;
+
+    Kendaraan mobil1;
+    cout << "Objek 1 (Tanpa Parameter):" << endl;
+    mobil1.tampilkanInfo();
+
+    Kendaraan mobil2(101);
+    cout << "Objek 2 (Hanya ID):" << endl;
+    mobil2.tampilkanInfo();
+
+    Kendaraan motor1("Yamaha NMAX");
+    cout << "Objek 3 (Hanya Nama):" << endl;
+    motor1.tampilkanInfo();
+
+    Kendaraan motor2(202, "Honda Vario");
+    cout << "Objek 4 (Parameter Lengkap):" << endl;
+    motor2.tampilkanInfo();
+
+    return 0;
+}
