@@ -36,9 +36,9 @@ void mahasiswa :: cetak() {
 }
 
 int main(){
-    mahasiswa mhs1 (102030);                  // Hanya Nim
-    mahasiswa mhs2 ("Andi");                  // Hanya Nama
-    mahasiswa mhs3 (010203, "Santi");          // Hanya Nim dan Nama
+    mahasiswa mhs1 (102030);                 
+    mahasiswa mhs2 ("Andi");                  
+    mahasiswa mhs3 (010203, "Santi");          
 
     //Tampilkan nilai
     cout <<"Mahasiswa 1:"; mhs1.cetak();
