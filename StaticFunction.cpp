@@ -41,3 +41,24 @@ void Mahasiswa::printALL() {
     cout << endl;
 }
 
+int main() {
+    //pembuatan object dan pemberian nilai
+    Mahasiswa mhs1("Sri dadi");
+    Mahasiswa mhs2("Budi jatmiko");
+    //memberi nilai pada setNim() untuk merubah nilai NIM
+    Mahasiswa::setNIM(9);
+    Mahasiswa mhs3("Andi janu");
+    Mahasiswa mhs4("Joko wahono");
+
+    //memanggil prosedur printALL()
+    mhs1.printALL();
+    mhs2.printALL();
+    mhs3.printALL();
+    mhs4.printALL();
+
+    //menampilkan NIM terakhir yang diproses
+    cout << "Akses dari luar object = " << Mahasiswa::getNim() << endl;
+    system("pause");
+
+    return 0;
+}
