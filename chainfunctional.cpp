@@ -13,3 +13,12 @@ class buku{
     }
 
 };
+
+int main()
+{
+    buku bukunya;
+    // bukunya.setJudul("Matematika");
+    // cout << bukunya.getJudul();
+    cout << bukunya.setJudul("Matematika").getJudul(); //Chain function calls
+    return 0;
+}
